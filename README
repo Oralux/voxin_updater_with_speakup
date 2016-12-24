@@ -1,0 +1,31 @@
+voxin_updater_with_speakup
+2016 Gilles Casse <gcasse@oralux.org> 
+
+This script updates voxin [1] and installs voxinup [2], the speakup connector for voxin.
+
+* install.sh
+
+This script updates voxin and install voxinup.
+Please note that:
+- espeakup will be uninstalled,
+- the speakup connector can prevent the use of audio by other softwares (Orca, Emacspeak, aplay,...),
+- this script will reboot your system.
+
+To launch it, just type for example in a shell terminal:
+
+sudo ./install.sh
+
+* uninstall.sh
+The uninstall.sh script removes voxinup and reinstalls espeakup instead.
+This script will reboot your system at the end.
+To launch it, just type for example:
+
+sudo ./uninstall.sh
+
+
+* [1] voxin update
+https://voxin.oralux.net/update
+
+* [2] voxinup
+https://github.com/Oralux/voxinup_install
+
